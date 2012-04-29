@@ -1,4 +1,4 @@
-Title: A Framework for Rapid Application Development of 7digital Music Stores
+Title: A framework for rapid application development of 7digital music stores
 Author: Michael Lam
 Date: May 27 2011
 

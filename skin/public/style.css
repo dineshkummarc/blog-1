@@ -139,6 +139,7 @@ text-decoration: underline !important;
 #sidebar li a {
   color: #333333;
   display: block;
+  margin-left: -8px;
 }
 #sidebar li span {
   border: 1px solid #422100;
