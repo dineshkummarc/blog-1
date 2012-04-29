@@ -6,5 +6,5 @@ var Stack = require('stack'),
 
 Http.createServer(Stack(
   Creationix.log(),
-  require('wheat')(__dirname + "/heroku-deploy-files")
+  require('wheat')(__dirname)
 )).listen(port);
