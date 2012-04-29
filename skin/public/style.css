@@ -45,7 +45,7 @@ text-decoration: underline !important;
   margin-top:10px;
   line-height: 2.5em;
   padding-left: 25px;
-  font-size: 1.1em;
+  font-size: 1.0em;
 }
 .article .snippet {
   position: relative;
@@ -182,6 +182,7 @@ pre code {
   margin: 20px 0px;
   clear: both;
   color: #000000;
+  border: solid 1px #aaaaaa;
 }
 
 
