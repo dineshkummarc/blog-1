@@ -13,7 +13,10 @@ results
 
 node_modules
 npm-debug.log
-HEAD
-packed-refs
-objects
-refs
+
+# the following are needed for heroku deploy (unfortunately)
+
+# HEAD
+# packed-refs
+# objects
+# refs
