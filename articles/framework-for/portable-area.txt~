@@ -1,0 +1,16 @@
+{
+        public override string AreaName
+        {
+                 get { return "artistcharts"; }
+        }
+ 
+        public override void RegisterArea(AreaRegistrationContext context, IApplicationBus bus)
+        {
+                 context.MapRoute(
+                          "ArtistCharts",
+                          "ArtistCharts",
+                          new { controller = "artistcharts", action = "index" });
+ 
+                          RegisterAreaEmbeddedResources();
+        }
+}

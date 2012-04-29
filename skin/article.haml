@@ -1,11 +1,6 @@
 #main
-  .article
+  .article.article-page
     %h1
       %a{href: "/" + article.name}&= article.title
     = markdownEncode(article.markdown)
     %hr{style:"clear:both"}
-
-
-#sidebar
-  .aside
-    lalalala

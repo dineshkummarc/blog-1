@@ -1,0 +1,9 @@
+public override void OnActionExecuting(ActionExecutingContext filterContext)
+{
+	bool featureSwitchedOn = FeatureSwitchService.GetStatus(_featureName);
+ 
+	if (!featureSwitchedOn)
+	{
+		filterContext.Result = new ContentResult { Content = null };
+	}
+}

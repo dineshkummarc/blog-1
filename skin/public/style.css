@@ -4,7 +4,7 @@
 }
 #header {
   padding-top: 30px;  
-  margin-left: 70px;
+  margin-left: 5%;
   font-size: 1.4em;
   line-height: 1.7em;
 
@@ -36,6 +36,16 @@ text-decoration: underline !important;
   position: relative;
   margin-bottom: 20px;
   overflow: hidden;
+}
+.article-page{
+  width: 850px;
+}
+.article-page ul{
+  color: Black;
+  margin-top:10px;
+  line-height: 2.5em;
+  padding-left: 25px;
+  font-size: 1.1em;
 }
 .article .snippet {
   position: relative;
@@ -112,6 +122,9 @@ text-decoration: underline !important;
 #sidebar p {
   margin-bottom: 20px;
 }
+#sidebar div {
+  margin-bottom: 20px;
+}
 #sidebar ul {
   overflow: hidden;
 }
@@ -168,6 +181,7 @@ pre code {
   overflow: auto;
   margin: 20px 0px;
   clear: both;
+  color: #000000;
 }
 
 

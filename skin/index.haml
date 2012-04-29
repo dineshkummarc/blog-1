@@ -10,11 +10,15 @@
 
 #sidebar
     %h4
-      Bio
-    I'm a software engineer at 7digital...
+      Biography
+    %div
+      I'm a software engineer at 
+      %a(href='http://www.7digital.com') 7digital 
+       and a keen cyclist. This blog is mostly about software engineering and web development. My cycling adventures may make an occassional mention.
 
     %h4
       Articles
+
     %ul
       :each article in articles.slice(0,20)
         %li
